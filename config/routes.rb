@@ -1,4 +1,5 @@
 Czars::Application.routes.draw do
+  get "pages/index"
   resources :lists do
   #->Prelang (voting/acts_as_votable)
   member do
